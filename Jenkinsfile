@@ -1,7 +1,7 @@
 node {
-    agent any
+    // agent any
     // checkout scm
     stage('Build') {
-        sh 'python --version'
+        echo 'Building'
     }
 }
